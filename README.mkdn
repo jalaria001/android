@@ -2,9 +2,9 @@ Getting Started
 ---------------
 
 
-To initialize your local repository using the ParanoidAndroid trees, use a command like this:
+To initialize your local repository using the ParanoidZTE trees, use this command:
 
-    repo init -u git://github.com/ParanoidAndroid/android.git -b ics
+    repo init -u git://github.com/ParanoidZTE/android.git -b ics
 
 Then to sync up:
 

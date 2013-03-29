@@ -23,7 +23,7 @@
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github" revision="cm-10.1" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" remote="github" revision="cm-10.1" />
-  <project path="development" name="ParanoidZTE/android_development" remote="github" revision="cm-10.1" />
+  <project path="development" name="SlimRoms/android_development" remote="github" revision="jb4.2" />
   <project path="device/common" name="CyanogenMod/android_device_common" remote="github" revision="cm-10.1" />
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" remote="github" revision="cm-10.1" groups="device" />
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" remote="github" revision="cm-10.1" groups="device" />
@@ -254,7 +254,8 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="SlimRoms/packages_apps_Contacts" remote="github" revision="jb4.2" />
   <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" remote="github" revision="jb4.2" />
-  <project path="packages/apps/Email2" name="platform/packages/apps/Email" />
+  <project path="packages/apps/Effem" name="ParanoidZTE/android_packages_apps_Effem" remote="github" revision="master" />
+  <project path="packages/apps/Email2" name="SlimRoms/packages_apps_Email" remote="github" revision="jb4.2" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="SlimRoms/packages_apps_Gallery2" remote="github" revision="jb4.2" />
@@ -287,7 +288,7 @@
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
+  <project path="packages/providers/ContactsProvider" name="SlimRoms/packages_providers_ContactsProvider" remote="github" revision="jb4.2" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/MediaProvider" name="SlimRoms/packages_providers_MediaProvider" remote="github" revision="jb4.2" />
@@ -352,6 +353,13 @@
 
   <!-- Slim OTA -->
   <project path="packages/apps/SlimCenter" name="SlimRoms/packages_apps_SlimCenter" remote="github" revision="jb4.2" />
+
+  <!-- Koush Superuser -->
+  <project path="external/koush/Superuser" name="CyanogenMod/Superuser" remote="github" revision="cm-10.1" />
+  <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="github" revision="cm-10.1" />
+
+  <!-- DashClock widget -->
+  <project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" remote="github" revision="jb4.2" />
 
   <!-- New Additions theme engine CM -->
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="cm-10.1" />

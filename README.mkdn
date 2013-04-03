@@ -1,5 +1,5 @@
-ParanoidAndroid for ZTE devices
-===============================
+ParanoidAndroid for ZTE devices - Android 4.1.2 JellyBean
+=========================================================
 
 Getting Started
 ---------------
@@ -7,9 +7,9 @@ Getting Started
 To get started with Android/CyanogenMod/ParanoidAndroid, you'll need to get
 familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
-To initialize your local repository using the ParanoidZTE trees, use a command like this:
+To initialize your local repository using the ParanoidZTE jellybean tree, use a command like this:
 
-    repo init -u git://github.com/ParanoidZTE/android.git -b <branch>
+    repo init -u git://github.com/ParanoidZTE/android.git -b jellybean
 
 Then to sync up:
 
